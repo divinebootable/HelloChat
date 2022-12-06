@@ -1,0 +1,29 @@
+{
+  "name": "hellochat",
+  "version": "1.0.0",
+  "description": "RealTime Chat app with rooms",
+  "main": "server.js",
+  "scripts": {
+    "start":"node server",
+    "dev":"nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/divinebootable/HelloChat.git"
+  },
+  "author": "Monyuy Divine",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/divinebootable/HelloChat/issues"
+  },
+  "homepage": "https://github.com/divinebootable/HelloChat#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "socket.io": "^4.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
